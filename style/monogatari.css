@@ -294,12 +294,24 @@ textarea {
 }
 
 [data-ui="choices"] button {
-	margin: 1em;
+	margin: 0.5em;
 	padding: 0.5em;
 	border-radius: 0.5em;
-	width: auto;
+	width: 10em;
 	height: auto;
 	color: rgb(255, 255, 255);
+}
+
+[data-ui="gesicht"] {
+	display: block;
+	z-index: 11;
+	max-height: 100vh;
+	overflow-y: auto;
+	height: auto;
+	width: 100vw;
+	margin: -20px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 [data-ui="face"] {

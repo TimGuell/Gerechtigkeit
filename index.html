@@ -5,7 +5,12 @@
 <head prefix="og: http://ogp.me/ns#">
 
 	<title></title> <!--Up to 60-70 Characters. Optimal Format: Primary Keyword - Secondary Keyword | Brand Name-->
-
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			}
+	</style>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 	<meta name="description" content=""> <!--Page description. No longer than 155 characters.-->
@@ -161,20 +166,24 @@
 			</div>
 		</div>
 
+
+
 		<div data-ui="choices" class="vertical align-center middle"></div>
-		<div data-ui="text">
+		<div data-ui="gesicht" class="vertical align-center middle">
 			<img data-ui="face" alt="">
+		</div>
+		<div data-ui="text">
 			<span data-ui="who"></span>
 			<p data-ui="say"></p>
 		</div>
-		<div data-ui="quick-menu" class="align-right">
-			<span data-action="back"><span class="fa fa-arrow-left"></span> <span data-string="Back">Back</span></span>
+	<div data-ui="quick-menu" class="align-right">
+<!--			<span data-action="back"><span class="fa fa-arrow-left"></span> <span data-string="Back">Back</span></span>
 			<span data-action="distraction-free"><span class="fa fa-eye" data-action="distraction-free"></span> <span data-string="Hide" data-action="distraction-free">Hide</span></span>
 			<span data-action="auto-play"><span class="fa fa-play-circle" data-action="auto-play"></span> <span data-string="AutoPlay" data-action="auto-play">Auto</span></span>
 			<span data-action="open-menu" data-open="save"><span class="fa fa-save" data-action="open-menu" data-open="save"></span> <span data-string="Save" data-action="open-menu" data-open="save">Save</span></span>
 			<span data-action="open-menu" data-open="load"><span class="fa fa-undo" data-action="open-menu" data-open="load"></span> <span data-string="Load" data-action="open-menu" data-open="load">Load</span></span>
 			<span data-action="open-menu" data-open="settings"><span class="fa fa-gear" data-action="open-menu" data-open="settings"></span> <span data-string="Settings" data-action="open-menu" data-open="settings">Settings</span></span>
-			<span data-action="end"><span class="fa fa-times-circle-o" data-action="end"></span> <span data-string="Quit" data-action="end">Quit</span></span>
+			<span data-action="end"><span class="fa fa-times-circle-o" data-action="end"></span> <span data-string="Quit" data-action="end">Quit</span></span> -->
 		</div>
 	</section>
 
@@ -193,9 +202,9 @@
 
 		<div class="vertical align-right bottom animated bounceIn" data-ui="inner-menu">
 			<button data-action="start" data-string="Start">Start</button>
-			<button data-action="open-menu" data-open="load" data-string="Load">Load</button>
+	<!--		<button data-action="open-menu" data-open="load" data-string="Load">Load</button>
 			<button data-action="open-menu" data-open="settings" data-string="Settings">Settings</button>
-			<button data-action="open-menu" data-open="help" data-string="Help">Help</button>
+			<button data-action="open-menu" data-open="help" data-string="Help">Help</button> -->
 		</div>
 	</section>
 
