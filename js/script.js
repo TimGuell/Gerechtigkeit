@@ -66,7 +66,8 @@ const images = {
 const scenes = {
 	"Lohnabrechnung": "LohnabrechnungBG.jpg",
 	"BettlerScene": "BettlerBG.jpg",
-	"Einkaufsstraße": "einkaufsstraßeBG.jpg"
+	"Einkaufsstraße": "einkaufsstraßeBG.jpg",
+	"Bar": "BarBG.jpg"
 };
 
 // Define the Characters
@@ -209,7 +210,7 @@ let script = {
 	//Scene 5 - Islam
 	"Scene5":[
 	"Erzähler Bei der nächsten Ecke unterbricht deine Arbeitskollegin ihren Monolog und geht in eine andere Richtung. Du machst dich auf den Weg zu eurem Stammcafé, wo du dich mit Melina, Sarah und Finn triffst.",
-	//"scene Cafe with fadeIn",
+	"scene Bar with fadeIn",
 	"FinnErstaunt Hey, was ist denn mit dir passiert? Du siehst ja total durch den Wind aus?",
 	"Avatar Meine Arbeitskollegin und ich waren unterwegs und da hat uns so ein Typ um Geld angebettelt.",
 	"Avatar Sie war total unfreundlich und hat ihn auch ein wenig abwertend behandelt, sie sei nicht die Wohlfahrt und so…",
@@ -356,6 +357,7 @@ let script = {
 	//Scene 7 - Straße
 	"Scene7":[
 	"Erzähler Du hast dich von deinen Freunden verabschiedet und stehst wie vorhin auf der Straße. Du schaust dich um, welche anderen Ungerechtigkeiten Aylin noch gemeint haben könnte. Du denkst dir…",
+	"scene Lohnabrechnung with fadeIn",
 	"Avatar Was soll ich denn das nächste mal tun? Bin ich so arm, dass ich nichts geben kann? Oder kann ich Menschen auf eine andere Art helfen? Welche Ungerechtigkeiten könnte Sarah da noch so gemeint haben?",
 ],
 
